@@ -1,0 +1,290 @@
+{
+  "{0} duplicate rows detected before cleaning.": {
+    "0": "number"
+  },
+  "{0} numeric columns contain statistical outliers (IQR method).": {
+    "0": "number"
+  },
+  "{0} customers are classified as High Risk by the {1} model.": {
+    "0": "number",
+    "1": "label"
+  },
+  "Holdout recall: {0}; ROC-AUC: {1}.": {
+    "0": "number",
+    "1": "number"
+  },
+  "Churn label is defined as inactivity beyond the configured threshold ({0} days).": {
+    "0": "number"
+  },
+  "{0} customers in the K-Means at-risk segment.": {
+    "0": "number"
+  },
+  "Segment average monetary value: {0}.": {
+    "0": "number"
+  },
+  "Latest-window revenue growth: {0}%.": {
+    "0": "number"
+  },
+  "Revenue forecast trend: {0}.": {
+    "0": "label"
+  },
+  "30-day forecast growth: {0}%.": {
+    "0": "number"
+  },
+  "Validation quality: {0}.": {
+    "0": "label"
+  },
+  "Data quality score: {0}/100.": {
+    "0": "number"
+  },
+  "The dataset contains {0} rows and {1} columns with a data quality score of {2}.": {
+    "0": "number",
+    "1": "number",
+    "2": "number"
+  },
+  "Analyzed revenue is {0} with latest-window growth of {1}%.": {
+    "0": "number",
+    "1": "number"
+  },
+  "Analyzed revenue is {0}; a growth baseline is unavailable.": {
+    "0": "number"
+  },
+  "Inventory analysis found {0} critical/low-stock products and {1} dead-stock products.": {
+    "0": "number",
+    "1": "number"
+  },
+  "The churn model identified {0} high-risk customers.": {
+    "0": "number"
+  },
+  "Highest-priority action: {0} — {1}": {
+    "0": "prose",
+    "1": "prose"
+  },
+  "Profiled {0} rows across {1} columns; quality score {2}/100.": {
+    "0": "number",
+    "1": "number",
+    "2": "number"
+  },
+  "Reviewed inventory; {0} critical/low-stock products.": {
+    "0": "number"
+  },
+  " (silhouette {0}); churn ROC-AUC {1}.": {
+    "0": "number",
+    "1": "number"
+  },
+  "Revenue {0}; 30-day forecast {1} using {2}.": {
+    "0": "number",
+    "1": "number",
+    "2": "label"
+  },
+  "Synthesized {0} decision recommendations.": {
+    "0": "number"
+  },
+  "The dataset does not contain enough inactive customers at the {0}-day threshold to train a supervised churn model.": {
+    "0": "number"
+  },
+  "Inactive for more than {0} days relative to the dataset end date.": {
+    "0": "number"
+  },
+  "Forecast 30-day demand is {0} units, {1}% versus the latest 30 days. Model validation quality: {2}.": {
+    "0": "number",
+    "1": "number",
+    "2": "label"
+  },
+  "Forecast model: {0}; potential: {1}.": {
+    "1": "label"
+  },
+  "Status: {0}. Stock is {1} units with {2} days of forecast coverage.": {
+    "0": "label",
+    "1": "number",
+    "2": "number"
+  },
+  "30-day forecast: {0} units; reorder point: {1}.": {
+    "0": "number"
+  },
+  "{0} drives the highest average customer value": {
+    "0": "label"
+  },
+  "{0} customers average {1} in spend with a {2}-day recency.": {
+    "0": "number",
+    "1": "number",
+    "2": "number"
+  },
+  "K-Means silhouette score: {0}": {
+    "0": "number"
+  },
+  "Review {0} for {1}.": {
+    "0": "label"
+  },
+  "Latest-window revenue changed {0}%.": {
+    "0": "number"
+  },
+  "Forecast demand growth is {0}% for the next 30 days.": {
+    "0": "number"
+  },
+  "{0} customers are assigned to the at-risk segment by K-Means.": {
+    "0": "number"
+  },
+  "{0} is unavailable because the dataset is missing required fields.": {
+    "0": "label"
+  },
+  "Saved {0} cleaned rows": {
+    "0": "number"
+  },
+  "Current stock is {0} units against a forecast of {1} units over 30 days. Estimated coverage is {2} days with a {3}-day lead time.": {
+    "0": "number",
+    "1": "number",
+    "2": "number",
+    "3": "number"
+  },
+  "Current stock: {0} units": {
+    "0": "number"
+  },
+  "30-day forecast demand: {0} units": {
+    "0": "number"
+  },
+  "Coverage is {0} days and stock is at or below the explicit reorder point of {1} units.": {
+    "0": "number"
+  },
+  "The latest sale was {0} days before the dataset end date and the 30-day forecast is {1} units.": {
+    "0": "number",
+    "1": "number"
+  },
+  "Days since last sale: {0}": {
+    "0": "number"
+  },
+  "Coverage is {0} days against a 30-day forecast of {1} units. Excess versus 60-day demand is approximately {2} units.": {
+    "0": "number",
+    "1": "number"
+  },
+  "Projected stock in 90 days: {0}": {
+    "0": "number"
+  },
+  "Forecast availability: {0}": {
+    "0": "number"
+  },
+  "{0} sold {1} units in the latest 30-day window. The {2} model projects {3} units over the next 30 days": {
+    "2": "label"
+  },
+  " ({0}% versus the latest 30 days)": {
+    "0": "number"
+  },
+  ". Chronological holdout MAE is {0} units": {
+    "0": "number"
+  },
+  " and MAPE is {0}%.": {
+    "0": "number"
+  },
+  "Forecast 30-day demand is {0} units versus {1} units in the latest 30 days ({2}%).": {
+    "0": "number",
+    "2": "number"
+  },
+  "The selected {0} model achieved MAE {1} and MAPE {2}% on a {3}-week chronological holdout.": {
+    "0": "label",
+    "1": "number",
+    "2": "number",
+    "3": "number"
+  },
+  "The last recorded sale was {0} days before the dataset end date.": {
+    "0": "number"
+  },
+  "AutoDS report for {0}: {1} rows, revenue {2}, {3} prioritized recommendations. Metrics are computed from the selected dataset; financial impact is not estimated where cost data is unavailable.": {
+    "1": "number",
+    "2": "number",
+    "3": "number"
+  },
+  "Retention action for {0} high-risk customers": {
+    "0": "number"
+  },
+  "Churn model {0} holdout recall {1}.": {
+    "0": "label",
+    "1": "number"
+  },
+  "ROC-AUC {0}.": {
+    "0": "number"
+  },
+  "30-day forecast demand: {0} units.": {
+    "0": "number"
+  },
+  "Forecast growth: {0}%.": {
+    "0": "number"
+  },
+  "Protect {0} VIP customers": {
+    "0": "number"
+  },
+  "VIP average monetary value: {0}.": {
+    "0": "number"
+  },
+  "Revenue in the analyzed period was {0} across {1} orders.": {
+    "0": "number",
+    "1": "number"
+  },
+  "The latest-window revenue change was {0}%.": {
+    "0": "number"
+  },
+  "Inventory review covered {0} products, with {1} critical/low-stock and {2} dead-stock items.": {
+    "1": "number",
+    "2": "number"
+  },
+  "The churn model flagged {0} high-risk customers.": {
+    "0": "number"
+  },
+  "The highest-priority action is: {0}. Operational changes should be validated against cost, capacity and controlled experiments.": {
+    "0": "prose"
+  },
+  "Generated {0} · {1} · {2} rows × {3} columns": {
+    "2": "number",
+    "3": "number"
+  },
+  "Revenue forecast: {0} over 30 days and {1} over 90 days using {2}. Validation MAE {3}, MAPE {4}%.": {
+    "0": "number",
+    "1": "number",
+    "2": "label",
+    "3": "number",
+    "4": "number"
+  },
+  "Revenue momentum is {0}": {
+    "0": "label"
+  },
+  "Revenue in the latest 30-day window changed {0}% versus the preceding 30 days.": {
+    "0": "number"
+  },
+  "Latest 30-day revenue is {0}% versus the prior window.": {
+    "0": "number"
+  },
+  "Category revenue: {0}": {
+    "0": "number"
+  },
+  "This product generated {0} ({1}% of total revenue) in the selected period.": {
+    "0": "number",
+    "1": "number"
+  },
+  "Revenue reached {0} in {1}.": {
+    "0": "number"
+  },
+  "{0} revenue fell {1}% versus the previous month.": {
+    "1": "number"
+  },
+  "Revenue forecast is {0}": {
+    "0": "label"
+  },
+  "The selected {0} model projects {1} revenue over 30 days, {2}% versus the latest 30 actual days.": {
+    "0": "label",
+    "1": "number",
+    "2": "number"
+  },
+  "The selected {0} model projects {1} revenue over 30 days. No prior 30-day actual baseline is available.": {
+    "0": "label",
+    "1": "number"
+  },
+  "Chronological holdout MAE: {0}; MAPE: {1}%.": {
+    "0": "number",
+    "1": "number"
+  },
+  "{0} produced the lowest validation MAE among the evaluated candidates.": {
+    "0": "label"
+  },
+  "{0}: MAE {1}": {
+    "1": "number"
+  }
+}

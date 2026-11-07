@@ -1,0 +1,14 @@
+{
+  "name": "autods",
+  "version": "1.0.0",
+  "private": true,
+  "description": "AutoDS - AI decision support system for retail analytics",
+  "scripts": {
+    "dev:backend": "cd backend && ..\\.venv\\Scripts\\python.exe -m uvicorn app.main:app --reload --port 8000",
+    "dev:frontend": "npm --prefix frontend run dev",
+    "build": "npm --prefix frontend run build",
+    "lint": "npm --prefix frontend run lint",
+    "typecheck": "cd frontend && npx tsc -b",
+    "smoke": ".\\.venv\\Scripts\\python.exe backend\\tests\\smoke_test.py"
+  }
+}
